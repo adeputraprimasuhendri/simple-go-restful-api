@@ -1,8 +1,8 @@
 package helper
 
 import (
-	"service_uaa/model/domain"
-	"service_uaa/model/web"
+	"simple-go-restful/model/domain"
+	"simple-go-restful/model/web"
 )
 
 func ToCategoryResponse(category domain.Category) web.CategoryResponse {

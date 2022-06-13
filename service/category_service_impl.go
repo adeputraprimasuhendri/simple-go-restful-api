@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 	"database/sql"
-	"service_uaa/helper"
-	"service_uaa/model/domain"
-	"service_uaa/model/web"
-	"service_uaa/repository"
+	"simple-go-restful/helper"
+	"simple-go-restful/model/domain"
+	"simple-go-restful/model/web"
+	"simple-go-restful/repository"
 )
 
 type CategoryServiceImpl struct {

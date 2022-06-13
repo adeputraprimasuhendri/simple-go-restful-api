@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 	"errors"
-	"service_uaa/helper"
-	"service_uaa/model/domain"
+	"simple-go-restful/helper"
+	"simple-go-restful/model/domain"
 )
 
 type CategoryRepositoryImpl struct {

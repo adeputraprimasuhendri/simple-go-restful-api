@@ -1,4 +1,4 @@
-module service_uaa
+module simple-go-restful
 
 go 1.17
 

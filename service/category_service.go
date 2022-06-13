@@ -2,7 +2,7 @@ package service
 
 import (
 	"context"
-	"service_uaa/model/web"
+	"simple-go-restful/model/web"
 )
 
 type CategoryService interface {

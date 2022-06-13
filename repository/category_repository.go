@@ -3,7 +3,7 @@ package repository
 import (
 	"context"
 	"database/sql"
-	"service_uaa/model/domain"
+	"simple-go-restful/model/domain"
 )
 
 type CategoryRepository interface {
