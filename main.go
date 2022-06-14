@@ -2,9 +2,12 @@ package main
 
 import (
 	"github.com/go-playground/validator/v10"
+	_ "github.com/go-sql-driver/mysql"
 	"github.com/julienschmidt/httprouter"
+	"net/http"
 	"simple-go-restful/app"
 	"simple-go-restful/controller"
+	"simple-go-restful/helper"
 	"simple-go-restful/repository"
 	"simple-go-restful/service"
 )
@@ -22,5 +25,13 @@ func main() {
 	router.POST("/api/categories", categoryController.Create)
 	router.PUT("/api/categories/:categoryId", categoryController.Update)
 	router.DELETE("/api/categories/:categoryId", categoryController.Delete)
+
+	server := http.Server{
+		Addr:    "localhost:3000",
+		Handler: router,
+	}
+
+	err := server.ListenAndServe()
+	helper.PanicIfError(err)
 
 }
