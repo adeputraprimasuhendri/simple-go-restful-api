@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8dbc21b-5970-410a-8e83-e3268d3f7513" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/controller/category_controller_impl.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/json_helper.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/web/web_response.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/database.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/category_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/category_controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/category_controller_impl.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/category_controller_impl.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/category_repository_impl.go" beforeDir="false" afterPath="$PROJECT_DIR$/repository/category_repository_impl.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/category_service_impl.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/category_service_impl.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="OpenAPI" />
+        <option value="Go Application" />
         <option value="Go File" />
       </list>
     </option>
