@@ -1,6 +1,13 @@
 GET http://localhost:3000/api/categories
 Accept: application/json
 
+<> 2022-06-14T120055.500.json
+
+###
+
+GET http://localhost:3000/api/categories
+Accept: application/json
+
 ###
 
 GET http://localhost:3000/api/categories

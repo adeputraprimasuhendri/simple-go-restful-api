@@ -7,6 +7,7 @@ import (
 	"net/http"
 	"simple-go-restful/app"
 	"simple-go-restful/controller"
+	"simple-go-restful/exception"
 	"simple-go-restful/helper"
 	"simple-go-restful/repository"
 	"simple-go-restful/service"
@@ -25,6 +26,8 @@ func main() {
 	router.POST("/api/categories", categoryController.Create)
 	router.PUT("/api/categories/:categoryId", categoryController.Update)
 	router.DELETE("/api/categories/:categoryId", categoryController.Delete)
+
+	router.PanicHandler = exception.ErrorHandler
 
 	server := http.Server{
 		Addr:    "localhost:3000",
